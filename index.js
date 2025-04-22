@@ -1,1 +1,1 @@
-window.alert( 'Mi primea clase de certus en JavascriptS');
+alert('Mi primea clase de certus en JavascriptS');
