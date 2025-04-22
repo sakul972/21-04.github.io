@@ -6,16 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Pagina de bienvenida</h1>
-<p id="mensaje" style="color: red;">Este es un parrafo</p>
+    <div id="mensaje"></div>
+    <div id="resultado"></div>
 
 
 <script>
-document.getElementById('mensaje').innerHTML="Certus";
-document.write("<h2 style='color: blue;'>Bienvenido al segundo parrafo</h2>");
-window.alert('Bienvenido a Certus');
-console.log('mensaje de la consola del navegador');
-
+var mensaje="Bienvenido a Certus"
+document.getElementById('mensaje').innerHTML=mensaje;
+var valor1=10;
+var valor2=30;
+var suma=valor1+valor2;
+document.getElementById('resultado').innerHTML=suma
 
 
 </script>    
